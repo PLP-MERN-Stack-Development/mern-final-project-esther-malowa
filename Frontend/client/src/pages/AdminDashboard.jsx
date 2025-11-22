@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import useAuthStore from "../useAuthStore";
-import api from "../api"; // Use your axios instance with baseURL & JWT
+import api from "../api"; 
 
 export default function AdminDashboard() {
   const { user } = useAuthStore();
